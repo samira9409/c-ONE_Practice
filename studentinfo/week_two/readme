@@ -1,0 +1,126 @@
+Haa. Hadda waxaan Chapter 2 kuu diyaarinayaa isla qaabka Course Information-ka aad soo dirtay, anigoo beddelaya qaybta Chapter 1 → Chapter 2: Processing Data oo dhan.
+C# Programming I
+Chapter 2 — Processing Data
+Course Information
+Item
+Details
+Course Title
+C# Programming I
+Course Code
+CA221
+Department
+Computer Application
+Faculty
+Computer & Information Technology
+University
+Jamhuriya University of Science & Technology
+Academic Year
+2026
+Semester
+IV
+Prerequisite
+Introduction Programming
+Course Coordinator
+Yahye Ali Isse
+Chapter
+Chapter 2
+Chapter Title
+Processing Data
+Course Description
+Chapter 2 introduces students to processing data using C#. Students learn how to work with variables, constants, data types, expressions, operators, input, output, and data conversion. The chapter also introduces students to performing calculations and processing information in C# applications.
+Course Objectives
+By the end of this chapter, students should be able to:
+Understand variables and constants.
+Identify and use different C# data types.
+Declare and initialize variables.
+Use assignment statements.
+Perform arithmetic operations.
+Understand expressions and operators.
+Receive input from users.
+Convert data from one type to another.
+Process data using C#.
+Display results to users.
+Course Content
+Topic
+Chapter
+Variables
+Chapter 2
+Constants
+Chapter 2
+Data Types
+Chapter 2
+Assignment Statements
+Chapter 2
+Arithmetic Operators
+Chapter 2
+Expressions
+Chapter 2
+User Input
+Chapter 2
+Data Conversion
+Chapter 2
+Output
+Chapter 2
+Processing Data
+Chapter 2
+Learning Outcomes
+After completing Chapter 2, students should be able to:
+Understand the concept of variables.
+Use different C# data types.
+Declare and initialize variables.
+Create and use constants.
+Use assignment statements correctly.
+Perform arithmetic operations.
+Create expressions using operators.
+Receive input from users.
+Convert data between different data types.
+Process data and display results.
+Course Materials
+Lecture
+Lecture 02 - Processing Data
+Labs
+Lab 02 - Processing Data
+Assignments
+Assignment 02 - Processing Data
+Assessment
+Assessment
+Weight
+Lab Exercises
+—
+Class Exercises
+—
+Assignment 02
+—
+Chapter Practical Work
+Students will develop simple C# programs that demonstrate:
+Creating and using variables.
+Working with different data types.
+Performing arithmetic calculations.
+Receiving user input.
+Converting user input into numbers.
+Processing data.
+Displaying calculated results.
+Example
+int number1 = int.Parse(textBox1.Text);
+int number2 = int.Parse(textBox2.Text);
+
+int result = number1 + number2;
+
+label1.Text = result.ToString();
+This program receives two numbers, adds them together, and displays the result.
+Software Requirements
+Visual Studio
+C#
+.NET
+Windows Forms
+Teaching and Learning Methods
+Lectures
+Laboratory sessions
+Practical exercises
+Assignments
+Individual practice
+Instructor / Coordinator
+Yahye Ali Isse
+Department of Computer Application
+Faculty of Computer & Information Technology
+Jamhuriya University of Science & Technology
