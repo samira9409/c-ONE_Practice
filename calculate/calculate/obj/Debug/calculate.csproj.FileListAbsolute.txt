@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\calculate\calculate\bin\Debug\calculate.exe.config
+C:\Users\hp\Desktop\calculate\calculate\bin\Debug\calculate.exe
+C:\Users\hp\Desktop\calculate\calculate\bin\Debug\calculate.pdb
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.Form1.resources
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.Properties.Resources.resources
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.exe
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.pdb
+C:\Users\hp\Desktop\calculate\calculate\obj\Debug\calculate.exe.config
