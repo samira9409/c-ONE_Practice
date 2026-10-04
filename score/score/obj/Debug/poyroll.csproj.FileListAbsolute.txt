@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\score\score\bin\Debug\score.exe.config
+C:\Users\hp\Desktop\score\score\bin\Debug\score.exe
+C:\Users\hp\Desktop\score\score\bin\Debug\score.pdb
+C:\Users\hp\Desktop\score\score\obj\Debug\poyroll.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\score\score\obj\Debug\score.Form1.resources
+C:\Users\hp\Desktop\score\score\obj\Debug\score.Properties.Resources.resources
+C:\Users\hp\Desktop\score\score\obj\Debug\poyroll.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\score\score\obj\Debug\poyroll.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\score\score\obj\Debug\score.exe
+C:\Users\hp\Desktop\score\score\obj\Debug\score.pdb
