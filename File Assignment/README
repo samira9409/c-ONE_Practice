@@ -1,0 +1,33 @@
+# File Assignment – C# Windows Forms
+
+## Project Description
+This project demonstrates basic file handling operations using C# Windows Forms. It allows users to create a file, read data, delete selected items, and delete the entire file.
+
+## Main Functions
+
+1. **Create:** Creates `items.txt` and writes Java, C#, Python, and C++ into it if the file does not already exist.
+2. **Open:** Displays an "Open successfully" message.
+3. **Read:** Reads the predefined text and displays it in the ListBox.
+4. **Delete Item:** Removes the selected item from the ListBox and saves the remaining items to the file.
+5. **Delete File:** Deletes the entire text file.
+
+## C# Concepts Used
+
+- **Variables:** Store data, such as `currentFilePath`.
+- **Methods:** Organize tasks into separate functions, such as `ReadFile()`.
+- **Event Handling:** Executes code when buttons are clicked.
+- **If Statement:** Checks conditions before performing operations.
+- **File Handling:** Uses `File.CreateText()`, `File.Exists()`, and `File.Delete()`.
+- **StreamWriter:** Writes data into a file.
+- **StreamReader:** Reads text data.
+- **Loops:** Uses `while` and `foreach` to process data.
+- **Exception Handling:** Uses `try`, `catch`, and `Exception` to handle errors.
+- **MessageBox:** Displays messages and confirmation dialogs.
+- **ListBox:** Displays items and allows users to select them.
+- **DialogResult:** Handles Yes/No confirmation choices.
+- **Path:** Uses `Path.GetFullPath()` to get the full file path.
+- **MemoryStream:** Holds text data temporarily in memory.
+- **Using Statement:** Automatically closes and releases file resources.
+
+## Conclusion
+This project demonstrates how C# can be used to manage text data through file handling and Windows Forms controls.
