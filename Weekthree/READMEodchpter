@@ -1,0 +1,78 @@
+Topics:
+
+4.1 Decision Structures and the if Statement
+4.2 The if-else Statement
+4.3 Nested Decision Structures
+4.4 Logical Operators
+4.5 bool Variables and Flags
+4.6 Comparing Strings
+4.7 Preventing Data Conversion Exceptions with the TryParse Method
+4.8 Input Validation
+4.9 Radio Buttons and Check Boxes
+4.10 The switch Statement
+4.11 Introduction to List Boxes
+
+concept of chapter
+
+ A control structure is a logical design that controls the order in which statements execute
+A sequence structure is a set of statements that execute in the order that they appear
+A decision structure execute statements only under certain circumstances
+A specific action is performed only if a certain condition exists
+Also known as a selection structure.
+
+4.7 Preventing Data Conversion Exception;
+
+Exception should be prevented when possible
+The TryParse methods can prevent exceptions caused by users entering invalid data
+int.TryParse
+double.TryParse
+decimal.TryParse
+The generic syntax is:
+
+4.9 Radio Buttons and Check Boxes;
+Radio buttons allow users to select one choice from several possible choices
+Clicking on a radio button, the program automatically deselects any others. 
+This is known as mutually exclusive selection “you can only pick one at a time.”
+Check boxes allows users to select multiple options.
+
+4.10 The switch Statement;
+The switch statement lets the value of a variable or an expression determine which path of execution
+ the program will take
+It is a multiple-alternative decision structure
+It can be used as an alternative to an if-else-if statement that tests the same variable or 
+expression for several different values.
+
+4.11 Introduction to List Boxes;
+A ListBox controldisplays a list of items and allows the user to select an item from the list
+Commonly used properties are:
+Text: Contains the text of the currently selected item in the ListBox
+Items: Contains the items of the ListBox
+Items.Count: Contains the number of items in the ListBox
+SelectedItem: Gets or sets the currently selected item in the ListBox. When the user selects an item, 
+the item is stored in this property. You can use the following to get the selected item from a list box.
+
+SelectedItem;
+An exception will occur if you try to get the value of a ListBox’s SelectedItem property when no item is selected
+Items in a list box have an index starting with 0
+
+The first item has index 0, the nth item has index n – 1
+The SelectedIndex property keeps the index. If no item is
+selected the, value of SelectedIndex is – 1.
+
+Removing Items From a ListBox;
+The Items.RemoveAt method removes an item at a specific index from a ListBox
+
+ListBox.Items.RemoveAt(Index)
+where ListBox is the name of the ListBox control; Index is the index of the item to be removed 
+from the ListBox.
+Note: the specified index must be a valid index. It cannot be less than 0, or greater than 
+or equal to the number of items in the ListBox. If the index is invalid, the RemoveAt
+ method will throw an exception.
+
+
+
+
+
+
+
+

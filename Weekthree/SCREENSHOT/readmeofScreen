@@ -1,0 +1,105 @@
+# Gross Pay Calculator
+
+## Project Description
+This project is a simple C# Windows Forms application that calculates an employee's gross pay based on hours worked and hourly pay rate.
+
+## Concepts Used and Their Syntax
+
+### 1. Variables
+Variables are used to store data.
+
+```csharp
+double hours_worked, payrate, grosspay, Validation;
+```
+
+### 2. Double Data Type
+Used to store decimal numbers and whole numbers.
+
+**Syntax:**
+```csharp
+double variableName;
+```
+
+### 3. TryParse()
+Used to validate user input and check if the input is a valid number.
+
+**Syntax:**
+```csharp
+double.TryParse(textBox.Text, out variable);
+```
+
+### 4. If Statement
+Used to check conditions.
+
+**Syntax:**
+```csharp
+if (condition)
+{
+    // Statements
+}
+```
+
+### 5. Logical AND Operator
+Used to check if two conditions are true.
+
+**Syntax:**
+```csharp
+condition1 && condition2
+```
+
+### 6. Arithmetic Operator (*)
+Used to multiply two values.
+
+**Syntax:**
+```csharp
+result = value1 * value2;
+```
+
+### 7. ToString()
+Converts a numeric value into a string.
+
+**Syntax:**
+```csharp
+label.Text = variable.ToString();
+```
+
+### 8. MessageBox.Show()
+Displays a message to the user.
+
+**Syntax:**
+```csharp
+MessageBox.Show("Error Message");
+```
+
+### 9. Event Handling
+Executes code when the user clicks a button.
+
+**Syntax:**
+```csharp
+private void button_Click(object sender, EventArgs e)
+{
+    // Statements
+}
+```
+
+## Calculation Formula
+
+**Gross Pay = Hours Worked × Hourly Pay Rate**
+
+Example:
+- Hours Worked = 40
+- Hourly Pay Rate = $10
+- Gross Pay = $400
+
+## Input Validation
+- Hours worked must be greater than 0.
+- Hourly pay rate must be greater than 0.
+- Inputs must be valid numbers (Double or Integer).
+
+## Technologies Used
+- C#
+- Windows Forms
+- Visual Studio
+
+## Conclusion
+This project demonstrates variables, data types, input validation, conditional statements, logical operators, arithmetic operations, event handling, and displaying output using C#.
