@@ -1,0 +1,71 @@
+
+ <!-- 1. Student Registration Form (Checking) -->
+
+<!-- Description -->
+This program is a student registration form. It allows users to enter student name, age, gender, and faculty. It validates the information and displays the results in a ListBox.
+
+ <!-- Concepts Used -->
+
+1. Variables: Used to store student information such as name, age, gender, and faculty.
+2. String: Used to store text.
+3. Integer (int): Used to store whole numbers.
+4. TryParse(): Checks and converts the age into a number.
+5. If Statement:Checks conditions.
+6. Else If: Checks another condition when the first condition is false.
+7. Else: Executes when the condition is false.
+8. Nested If:An if statement inside another if statement.
+9. RadioButton: Used to select one gender.
+10. CheckBox:Used to select one or more faculties.
+11. Checked: Checks whether a RadioButton or CheckBox is selected.
+12. ListBox:Displays student information.
+13. MessageBox: Displays error messages.
+14. Clear(): Clears the TextBox and ListBox.
+15. Event Handling: Handles button clicks.
+
+<!-- Validation Rules -->
+- Age must be a number.
+- Age must be greater than zero.
+- The user must select one gender.
+- The user must select at least one faculty.
+
+---
+
+ <!-- 2. File Handling (Course File) -->
+
+ <!-- Description -->
+This program creates a text file called `course.txt`, writes course names into the file, and reads the courses into a ListBox.
+
+ <!-- Concepts Used -->
+
+1. File Handling: Used to create, write, and read files.
+2. StreamWriter: Used to write data into a file.
+3. StreamReader: Used to read data from a file.
+4. File.CreateText(): Creates a new text file.
+5. File.OpenText():Opens a text file for reading.
+6. WriteLine(): Writes data line by line.
+7. ReadLine(): Reads one line at a time.
+8. While Loop: Repeats reading until the end of the file.
+9. Null: Checks whether there is no more data to read.
+10. ListBox:Displays the course names.
+11. Try and Catch: Handles errors in the program.
+12. Exception:Stores error information.
+13. MessageBox: Displays error messages.
+14. Close():Closes the file after reading or writing.
+
+ <!-- Courses Added -->
+- Intro to Nursing
+- Arabic
+- Calculus I
+- Music Appreciation
+
+ <!-- Program Functions -->
+- Create a course file.
+- Write course names into the file.
+- Read course names from the file.
+- Display courses in a ListBox.
+
+---
+
+ <!-- Conclusion -->
+
+These two assignments demonstrate important C# concepts, including variables, data validation, conditional statements, loops, event handling, and file handling. They help me understand how to create Windows Forms applications and manage data using C#.

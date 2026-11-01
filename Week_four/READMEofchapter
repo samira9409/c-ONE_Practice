@@ -1,0 +1,69 @@
+<!-- Topics -->
+
+5.1The while Loop
+5.2 The ++ and -- Operators
+5.3 The for Loop
+5.4 The do-while Loop
+5.5 Using Files for Data Storage
+5.6 The OpenFileDialog and SaveFileDialog Controls
+5.7 Random Numbers
+5.8 The Load Event
+
+<!-- concept of chapter-->
+
+The while loop causes a statement or set of statements to repeat as long as a Boolean expression is true
+The simple logic is: While a Boolean expression is true, do some task.
+
+while (BooleanExpression)
+{
+    statements
+}
+
+<!-- Infinite Loops; -->
+An infinite loop is a loop that will repeats until the program is interrupted
+There are few conditions that cause a while loop to be an infinite loop. A typical scenario is that the programmer forgets to write code that makes the test condition false
+In the following example, the count variable is never increased. So, the Boolean expression is never false.
+
+<!-- Postfix Mode versus Prefix Mode; -->
+ Postfix: use old value, then change it.
+ Prefix: change value first, then use it.
+
+<!-- The for Loop -->
+The for loop is specially designed for situations requiring a counter variable to control the number of times that a loop iterates
+You must specify three actions:
+Initialization: a one-time expression that defines the initial value of the counter
+Test: A Boolean expression to be tested. If true, the loop iterates.
+Update: increase or decrease the value of the counter.
+
+<!-- File Accessing -->
+A file object is an object that is associated with a specific file and provides a way for the program to work with that file,
+.N E T provides two classes to work with file objects:
+StreamWriter: for writing data to a text file
+StreamReader: for reading data from a text file.
+
+<!-- The OpenFileDialog and SaveFileDialog Controls -->
+The OpenFileDialog and SaveDialog controls allow your application to display standard Windows dialog boxes for opening and saving files
+Unlike Label, Button, and TextBox, they are invisible controls
+The OpenFileDialog control displays a standard Windows Open dialog box.
+The SaveDialog control displays a standard Windows Save As dialog box.
+
+<!-- Random Numbers -->
+N E T provides the Random class to generate random numbers.
+To create an object, use:
+
+<!-- The Load Event -->
+When running an application, the applications form is loaded into memory and an event known as Load takes place
+To create a Load event handler, simply double click the form in the Designer
+An empty Load event handler looks like:
+
+
+
+
+
+
+
+
+ 
+
+
+
